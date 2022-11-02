@@ -7,3 +7,7 @@
 [submodule "backend"]
 	path = backend
 	url = https://github.com/mirea-ninja/lct-hack-backend.git
+[submodule "parser"]
+	path = parser
+	url = https://github.com/mirea-ninja/lct-hack-parser.git
+	
