@@ -39,23 +39,6 @@ services:
         - traefik.http.routers.${STACK_NAME}-proxy-https.middlewares=${STACK_NAME}-www-redirect
         - traefik.http.routers.${STACK_NAME}-proxy-http.middlewares=${STACK_NAME}-www-redirect,${STACK_NAME}-https-redirect
   
-  swagger:
-    image: swaggerapi/swagger-ui:latest
-    environment:
-      URL: 'swagger.yml'
-    volumes:
-      - ./backend/swagger/swagger.yml:/usr/share/nginx/html/swagger.yml
-    labels:
-      swaggerLabel: LCT Hack Backend
-      swaggerGroup: lst-hack
-      swaggerPort: 8081
-    deploy:
-      labels:
-        - traefik.enable=true
-        - traefik.constraint-label-stack=${TRAEFIK_TAG}
-        - traefik.http.routers.${STACK_NAME}-backend-http.rule=PathPrefix(`/swagger`)
-        - traefik.http.services.${STACK_NAME}-backend.loadbalancer.server.port=80
-
   db:
     image: postgres:latest
     volumes:
@@ -107,12 +90,6 @@ services:
       BACKEND_DISABLE_AUTH: ${BACKEND_DISABLE_AUTH}
       BACKEND_DISABLE_FILE_SENDING: ${BACKEND_DISABLE_FILE_SENDING}
 
-      BROKER_HOST: ${BROKER_HOST}
-      BROKER_PORT: ${BROKER_PORT}
-      BROKER_USER: ${BROKER_USER}
-      BROKER_PASS: ${BROKER_PASS}
-      BROKER_URL: ${BROKER_URL}
-
       STORAGE_REGION: ${STORAGE_REGION}
       STORAGE_ENDPOINT: ${STORAGE_ENDPOINT}
       STORAGE_ACCESS_KEY: ${STORAGE_ACCESS_KEY}
@@ -148,7 +125,6 @@ services:
 
 volumes:
   lct-hack-db-data:
-  broker:
 
 networks:
   traefik-public:
