@@ -51,18 +51,8 @@ cd lct-hack
 2. Отредактируйте `.env.example`:
 
 ```sh
-# Common
-DOMAIN=localhost
-STACK_NAME=lct-hack-ninja
-
-# Traefik
-TRAEFIK_PUBLIC_NETWORK=traefik-public
-TRAEFIK_TAG=lct-hack-ninja
-TRAEFIK_PUBLIC_TAG=traefik-publ
-
-# Docker
-DOCKER_IMAGE_BACKEND=backend
-DOCKER_IMAGE_FRONTEND=frontend
+# Deploy
+BACKEND_ALLOWED_DOMAINS=YOUR_BACKEND_ALLOWED_DOMAINS
 
 # Debug
 DEBUG=False
@@ -91,6 +81,7 @@ BACKEND_DADATA_TOKEN=Y0UR_DADATA_TOKEN
 # Feature Switch
 BACKEND_DISABLE_AUTH=False
 BACKEND_DISABLE_FILE_SENDING=False
+BACKEND_DISABLE_REGISTRATION=False
 
 # Storage
 STORAGE_REGION=Y0UR_STORAGE_REGION
