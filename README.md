@@ -30,7 +30,7 @@
   [![Fast API](https://img.shields.io/badge/FastAPI-009485?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
   [![Selenium](https://img.shields.io/badge/Selenium-43B02A.svg?logo=selenium&logoColor=white)](https://www.selenium.dev/)
 - Proxy:
-  [![Traefik](https://img.shields.io/badge/Traefik-249DBC.svg?logo=traefikproxy&logoColor=white)](https://doc.traefik.io/traefik/)
+  [![Nginx](https://img.shields.io/badge/Nginx-009639.svg?logo=nginx&logoColor=white)](https://nginx.org/)
 - Work:
   [![Figma](https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=white)](https://www.figma.com/)
   [![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?logo=docker&logoColor=white)](https://www.docker.com/)
