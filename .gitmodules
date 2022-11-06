@@ -1,6 +1,3 @@
-[submodule "proxy"]
-	path = proxy
-	url = https://github.com/mirea-ninja/lct-hack-proxy.git
 [submodule "frontend"]
 	path = frontend
 	url = https://github.com/mirea-ninja/lct-hack-frontend.git
