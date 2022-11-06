@@ -7,12 +7,15 @@
 - [Сборка проекта](#launch)
 - [Документация](#docs)
 - [Лицензия](#license)
+- [Прототип](https://lct.mirea.ninja/)
+- [Дизайн](https://www.figma.com/file/bgXeMMNvnoCDHYOWajKlKX/%D0%9B%D0%A6%D0%9F---6-(%D0%90%D0%BB%D0%B5%D0%BD%D0%B0)?node-id=106%3A249)
+
 
 <a name="desc"></a>
 
 ## Описание проекта
 
-Разработайте сервис, который автоматизирует процесс расчета стоимости однотипных квартир, находящихся в собственности города, в зависимости от их индивидуальных параметров. Сервис позволит ускорить процедуру выдачи экспертных заключений о стоимости квартир и избежать сделок, при которых городское имущество продается по цене ниже рыночной
+Cервис, который автоматизирует процесс расчета стоимости однотипных квартир, находящихся в собственности города, в зависимости от их индивидуальных параметров. Сервис позволит ускорить процедуру выдачи экспертных заключений о стоимости квартир и избежать сделок, при которых городское имущество продается по цене ниже рыночной
 
 <a name="stack"></a>
 
@@ -155,6 +158,7 @@ docker-compose up -d --build
 
 ## Документация
 
+- Документация (pdf) доступна по адресу: [lct.mirea.ninja/static/documentation.pdf](https://lct.mirea.ninja/static/documentation.pdf)
 - Документация серверной части доступна по адресу: [lct.mirea.ninja/redoc](https://lct.mirea.ninja/redoc)
 - Документация парсера доступна по адресу: [parser.lct.mirea.ninja/redoc](https://parser.lct.mirea.ninja/redoc)
 
@@ -164,6 +168,7 @@ docker-compose up -d --build
 - Backend - [lct.mirea.ninja/api](https://lct.mirea.ninja/api)
 - Parser - [parser.lct.mirea.ninja](https://parser.lct.mirea.ninja/api)
 - Backend Swagger - [lct.mirea.ninja/docs](https://lct.mirea.ninja/docs)
+- Backend Redok - [lct.mirea.ninja/redoc](https://lct.mirea.ninja/redoc)
 - Backend Parser - [parser.lct.mirea.ninja/docs](https://parser.lct.mirea.ninja/docs)
 
 <a name="license"></a>
