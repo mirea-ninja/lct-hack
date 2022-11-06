@@ -7,4 +7,6 @@
 [submodule "parser"]
 	path = parser
 	url = https://github.com/mirea-ninja/lct-hack-parser.git
-	
+[submodule "proxy"]
+	path = proxy
+	url = https://github.com/mirea-ninja/lct-hack-proxy.git
