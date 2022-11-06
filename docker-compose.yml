@@ -13,7 +13,7 @@ services:
       - ssl_data:/etc/resty-auto-ssl
     environment:
       ALLOWED_DOMAINS: "${BACKEND_ALLOWED_DOMAINS}"
-      SITES: "${BACKEND_ALLOWED_DOMAINS}=backend:8080"
+      SITES: "${BACKEND_ALLOWED_DOMAINS}=backend:80"
   
   db:
     image: postgres:latest
@@ -79,8 +79,10 @@ services:
   frontend:
     build:
       context: ./frontend
-      args:
-        FRONTEND_ENV: ${FRONTEND_ENV-production}
+      environment:
+        NEXT_APP_API_URL: ${NEXT_APP_API_URL}
+        NEXT_APP_PARSER_API_URL: ${NEXT_APP_PARSER_API_URL}
+
 
 
 volumes:
