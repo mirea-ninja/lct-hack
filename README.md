@@ -168,7 +168,7 @@ docker-compose up -d --build
 - Backend - [lct.mirea.ninja/api](https://lct.mirea.ninja/api)
 - Parser - [parser.lct.mirea.ninja](https://parser.lct.mirea.ninja/api)
 - Backend Swagger - [lct.mirea.ninja/docs](https://lct.mirea.ninja/docs)
-- Backend Redok - [lct.mirea.ninja/redoc](https://lct.mirea.ninja/redoc)
+- Backend Redoc - [lct.mirea.ninja/redoc](https://lct.mirea.ninja/redoc)
 - Backend Parser - [parser.lct.mirea.ninja/docs](https://parser.lct.mirea.ninja/docs)
 
 <a name="license"></a>
