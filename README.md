@@ -1,4 +1,6 @@
 # Сервис для расчета рыночной стоимости жилой недвижимости города Москвы
+![photo_2022-11-14_09-58-26](https://github.com/mirea-ninja/lct-hack/assets/51058739/c27f6580-f03a-4c2b-bb34-4567d0020f0f)
+
 
 ## Навигация
 
@@ -157,10 +159,7 @@ docker-compose up -d --build
 <a name="docs"></a>
 
 ## Документация
-
-- Документация (pdf) доступна по адресу: [lct.mirea.ninja/static/documentation.pdf](https://lct.mirea.ninja/static/documentation.pdf)
-- Документация серверной части доступна по адресу: [lct.mirea.ninja/redoc](https://lct.mirea.ninja/redoc)
-- Документация парсера доступна по адресу: [parser.lct.mirea.ninja/redoc](https://parser.lct.mirea.ninja/redoc)
+- [Документация (pdf) с описанием основных функциональных возможностей и схемы взаимодействия с API](https://github.com/mirea-ninja/lct-hack/files/13403529/documentation.pdf)
 
 ### Endpoints
 
